@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Autour+One&family=Gabarito:wght@900&family=Happy+Monkey&family=Orbitron:wght@600&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+body{
+    background-color: #121826;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-height: 1280px;
+    min-height: 640px;
+    font-family: 'poppins';
+}
+.container{
+    background-color: #212936;
+   overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blue(10px);
+    padding-bottom: 30px;
+    
+}
+input{
+    padding-left: 15px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 38px;
+    max-width: 79%;
+    width: 100%;
+    min-width: 1px;
+    
+}
+h4{
+    margin-top: 27px;
+    font-weight: 500;
+    color: white;
+    margin-right: 65%;
+}
+p{
+    margin-bottom: 1%;
+    font-weight: 50;
+    font-size: 11px;
+    color: white;
+    margin-right: 76%;
+}
+
+body::before{
+    content: "";
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    background-color: #7c3aed;
+    left: 1px;
+    top: 2px;
+    filter: blur(99px);
+}
+body::after{
+    content: "";
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    background-color: #7c3aed;
+    right: -30px;
+    bottom: -80px;
+    filter: blur(99px);
+}
+.continue-btn{
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    padding: 10px 35px;
+    margin-top: 9%;
+    border: none;
+    border-radius: 100px;
+    background:linear-gradient(to top,#7c3aed, #c026d3)
+}
+.continue-btn:hover{
+    transform: scale(1.1);
+}
+.txts{
+
+    top: 22px;
+    left: 140px;
+    position: relative;
+    border: 0px solid white;
+    width: 300px;
+}
+.stepper{
+    margin-left: 0px;
+    border: 0px solid white;
+    margin-right: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.step1, .step2, .step3{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    
+}
+.q{
+    display: none;
+}
+.w{
+    display: none;
+}
+.e{
+    display: none;
+}
+.steps{
+    position: relative;
+    color: gray;
+    left: 100px;
+    bottom: 25px;
+}
+.email-txt {
+    margin-top: 28px;
+}
+.register-body{
+    margin-right: -23px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 10px;
+    backdrop-filter: blue(10px);
+    border: 0px solid white;
+}
+.stepper-update{
+    margin-left: 400px;
+    transition: 1s ease-in-out;
+    position: relative;
+    border: 0px solid white;
+    flex-direction: row;
+    display: flex;
+    width: 300%;
+    max-width: 300%;
+    position: relative;
+    left: 200px;
+}
+.topic{
+    margin-right: -7.5px;
+    font-size: 14px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid grey;
+    height: 100%;
+    min-height: 302px;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blue(10px);
+    padding-bottom: 10px;
+}
+.topic h3{
+    margin-left: 11px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.topic input{
+    height: 100px;
+}
+.choice button {
+    
+    color: grey;
+    transition: background-color 0.2s;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: left;
+    background-color: #394150;
+    border: 1px solid grey;
+    height: 44px;
+    max-width: 80%;
+    width: 100%;
+    min-width: 1px;
+    border-radius: 10px;
+}
+.choice{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    
+}
+
+.topic button:hover{
+    background-color: #845EEE;
+}
+
+.fixButton.active{
+    transition: 1s;
+    background-color: #652CD1
+}
+.summary h3{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.h5{
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 490;
+    
+}
+
+.h .putMail{
+    font-weight: 490;
+    margin-bottom: 50px;
+}
+
+li{
+    
+    color: white;
+}
+.summary h3, h5, h4 {
+    margin-left: 12px;
+}
+.reg {
+    margin-right: 270px;
+}
+.ttopic {
+    margin-right: 20px;
+}
+.gmails{
+margin-top: 1px;
+font-weight: 490;
+color: gray;
+}
+.summary{
+    margin-left: -5PX;
+    width: 100%;
+    min-height: 100%;
+    border: 0px solid white;
+    
+}
+
+.h{
+    color: gray;
+    font-weight: 490;
+    margin-bottom: 10px;
+}
+span{
+    color: white;
+}
+.summary h4{
+    color: gray;
+    font-size: 14px;
+}
+.continue-btns{
+    text-align: center;
+    
+}
+.btnw{
+    margin-right: 50px;
+    margin-top: 100px;
+    height: 5px;
+    border: 0px solid white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    margin-bottom: 1px;
+}
+.btnbtn{
+    margin-right: 120px;
+}
