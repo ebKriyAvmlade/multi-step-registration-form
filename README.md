@@ -1,3 +1,5 @@
+LIVE PREVIEW: https://ebkriyavmlade.github.io/multi-step-registration-form/
+
 Project Description: Multi-Step Registration Form
 
 Overview:
@@ -34,6 +36,3 @@ Flexibility and Customization: The project allows for easy customization and exp
 Conclusion:
 
 The Multi-Step Registration Form project offers a modern and user-centric approach to online registration. By focusing on user experience, dynamic interactivity, and error prevention, the project simplifies the registration process, making it efficient, enjoyable, and hassle-free for users.
-
-
-LIVE PREVIEW: https://ebkriyavmlade.github.io/multi-step-registration-form/
